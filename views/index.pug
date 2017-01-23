@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        base(href="/pn/")
+        title= title
+        link(rel="stylesheet" href=('//static-assets.velocity.ag/styles/1.0.1/velocity.css'))
+        link(rel="stylesheet" href=(appBaseUrl + '/styles/select2.css'))
+        link(rel="stylesheet" href=(appBaseUrl + '/styles/select.css'))
+        link(rel="stylesheet" href=(appBaseUrl + '/styles/style.css'))
+    body
+        .nav
+    div(ng-view)
+    //script(type='text/javascript' src=(appBaseUrl + '/service-bindings'))
+    script(type='text/javascript' src=(appBaseUrl + '/scripts/bundle.js'))

@@ -1,0 +1,18 @@
+{
+  "names" : [
+    "R",
+    "L",
+    "G",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "abbreviation" : [
+    "Glyphosate resistance",
+    "Glufosinate resistance",
+    "Glyphosate & glufosinate resistance",
+    "RHS- Glyphosate Resistance",
+    "RHS- Glyphosate & Glufosinate Resistance",
+    "None"
+  ]
+}
