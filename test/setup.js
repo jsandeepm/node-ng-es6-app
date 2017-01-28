@@ -1,3 +1,4 @@
+/*
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import sinon from 'sinon';
@@ -29,3 +30,4 @@ global.angular = window.angular;
 global.inject = global.angular.mock.inject;
 global.ngModule = global.angular.mock.module;
 
+*/

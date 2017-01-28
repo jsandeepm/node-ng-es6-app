@@ -1,0 +1,40 @@
+lazy loading in angularjs?
+
+factory vs services?
+
+what is mixins?
+
+what is the difference in devedependencies and dependencies in Nodejs?
+
+
+
+
+
+
+
+how spring boot detects required dependencies?
+what configuration required?
+
+
+
+
+
+
+
+
+
+1. Weakly typed
+2. = assign, == value, === type and value(Strict equality)
+3. '',""
+4. for loop -> break, continue is in JS
+5. var x=[], var x= new Array(), var x=Array(),var x=Array(5)
+6. a=5 ,b='5' a+b=55,  ||  a=5 ,b='5' a*b=NaN,
+
+
+
+The function interface is an interface with just one single method. As such, it may be
+implicitly converted to a lambda expression. The java.lang.Runnable and java.util.concurrent.Callable are two great examples
+of functional interfaces. In practice, the functional interfaces are fragile: if someone adds just one another method to the interface
+definition, it will not be functional anymore and compilation process will fail. To overcome this fragility and explicitly declare
+the intent of the interface as being functional, Java 8 adds special annotation @FunctionalInterface (all existing interfaces in Java
+library have been annotated with @FunctionalInterface as well).

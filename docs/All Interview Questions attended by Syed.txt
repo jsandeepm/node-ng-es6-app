@@ -1,0 +1,549 @@
+
+Amedeus:
+================================================================
+Difference b/w SOAP & Rest
+when you will go for SOAP & Rest
+how you implement the security for web services
+
+Scenario based question: 
+	when you will used static & instance variable.
+	How to pass multiple values in rest request (like bulk approval for data collection)
+	
+
+
+Internal implementation of ArrayList / LinkedList / HashMap / TreeMap etc...
+how to impement ArrayList
+
+
+
+
+JC Penny : 1 Dec (Sagar)
+===================================
+
+1st Round: Raghu
+how to create DS specific to different environment without changing code
+Micro Services
+ConcurrentHashMap
+
+
+2nd round:
+technologies stack worked On
+Recent proj worked on, role, architecture diagram
+spring AOP
+which version of spring you have used in your project
+
+Diff b/w:
+filters & interceptor
+controller & rest service
+@Service, @Component & @Resource
+
+how do you check log for any particular user issue
+How you do scaling to increase no. of users... 
+default bean scope & different scopes. What all scope you have used in your project
+
+validation in Rest Services, Security
+
+what are different Response codes & difference between Forbidden & Unauthorised Access
+
+use of micro services & disadvantages of its.
+http://cloudacademy.com/blog/microservices-architecture-challenge-advantage-drawback/
+
+
+How session are maintained & how the subsequent request goes to the same instance?
+
+
+
+
+
+Adobe	: 30 Nov
+===================================
+
+1st Round: It was good. Able to answer most of the question. Not much drilling except for few question
+
+
+		Differences between Pessimistic and Optimistic Locking
+		Generics... How generics are internal converted? will it be same as compile time or changed at runtime?
+
+		Callable & future. it can return value & handle exception.		
+		Thread synchronization & inter thread communication.
+
+2nd Round:
+
+	Why SOLAR is used? how you will configure it.
+	Difference b/w jsp & servlet
+	Difference b/w controller & rest service? can we use servlet as rest service.
+	why hashtable/hashMap does allows only one null key?
+	while getting the session object from, why two overloaded method one with boolean param & other with none.
+
+	is it possible to send file in rest service.
+
+
+
+
+Altisource : 30 Nov
+===================================
+1st Round: written test
+
+
+2nd Round: Data Structure
+		Shortest route program
+		traversing tree in zig zag
+		printing tree's diagnol elements
+		ConcurrentHashMap working & can it allow modification on part on which lock update & how?
+		What all data stored in EntrySet. How hashMap is implemented internally.
+		Does hashMap store hashCode? what is the need to store hashcode
+		Drilling in hashCode, like can two objects have same hashCode? 
+		what will happen if the hashcode generated is beyond the range? it will be truncated & there may be more changes that object will have same hashCode.
+
+
+3rd round:
+		write end to end service for bidding & to get bid count considering concurrent request.
+		Find common number from two sorted array. I used binary search & he asked complexity of binary search
+		How to handle concurrent transaction? like synchronizing the code. And if its on multiple server. use database level lock. or use optimistic lock.
+		
+
+
+4th Round:
+		Find largest elements in tree (hint traverse BT to right until you reach last node)
+		Write Class diagram for Any product/project (Like Mobile)
+		MemoryLeak prob & config in Java 5/6. 
+		Race condition while shifting the elements in hashMap when the array is full. It reverse the order etc...
+
+	
+
+
+
+
+
+
+
+
+
+
+Capgemini / Sony Interview Questions....
+===============================================================================
+
+
+Difference b/w @autowired & @inject
+Autowired				inject
+========================================================
+Spring propriety				java propriety
+inject a resource by type-driven injection	by type, qualifier then name
+@Qualifier is used to resolve ambiguity.	@Named
+
+
+@Resource difference is the execution paths taken to find out the required bean to inject. @Resource will narrow down the search first by name then by type and finally by Qualifiers (ignored if match is found by name). 
+
+@Autowired and @Inject will narrow down the search first by type then by qualifier and finally by the name.
+
+
+
+
+
+
+=======================================================================================
+performance n security
+
+
+
+where u used overloading & overriding 
+
+given date is end of the month(first solving approach, next in SQL, next in .Net
+
+Fideility Investment -
+Philip - spring/hibernate CloudFoundry by pivotal(AW)
+
+for security data they maintain their own CloudFoundary
+
+
+
+security for web service: pass credential like in Tarang App...
+
+Written Test:
+
+xml
+
+uml
+
+Design pattern
+
+Association, composition, aggregation.
+
+try catch block with return exit
+
+
+spring/hibernate integration
+
+struts Vs Spring MVC 	=	spring is much powerful & easily integrated with other framework.
+
+
+how spring is light weight
+	because of its internal implementation & DI
+
+
+difference b/w web/App server.
+
+string utility: 
+	to check null/size
+	split into 30 char lines
+
+==================JPA & Junit:
+
+spring validation: both ui & server side
+
+Spring bean scope
+
+why it is called light weight
+
+Transaction types
+
+
+how you will access logs on unix server & 
+what are the unix cmds
+
+where you have used the singleTon pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration Vs Recursion
+
+Collections 
+	<? extends Animals>
+	<? super Cat>
+	E / T
+	Collections class static methods
+	Arrays	
+
+& Threads
+
+Difference b/w 
+	REst & Soap.
+	Array & ArrayList & Vector
+	set & list
+	hashMap & Hashtable
+
+
+how to make class singleton & immutable
+
+
+
+
+
+
+
+
+
+Exilant Interview Questions:
+===============================================================================
+
+Company Exilant Technologies Richmond Road / Mission Road, Bangalore.
+
+
+1) Technical - by Ramesh ==== Pure Technical about Java
+
+
+------------Thread : (Synchronization & Inter-Thread Communication)
+
+Introduce yourself
+
+your role from rquirement till delivery
+
+1) what is deadlock? 
+   Create/Example a deadlock? And write the code for the same
+2) Producer consumer problem & write the code for it.
+3) what is yield()?
+4) why wait(), notify() & notifyAll() are in object class, why not in Thread()
+5) when to used block/method/class synchroned? 
+	there is no class level synchronization
+-------------Collections
+6) what all collection used?
+7) what is concurrentHashMap? How it is internally implemented.
+
+--------Design Patterns
+
+8) what are design patterns used.
+9) what is Factory Design pattern.
+10) How to maintain singleton with 
+	
+	Cloning 	= 	overide the clone() & throw CloneNotSupportedException 
+	serialization.	=	add readResolve() method 
+				
+				protected Object readResolve() {
+				  return myInstance;
+				}
+	[reflection	=	
+
+	]
+
+11) which version of java used? 6 
+	discussed features of 7 & 8.
+
+	http://www.journaldev.com/2389/java-8-features-with-examples
+
+-------------Spring Boot
+12) what is springBoot & what configuration you do with it.?
+
+
+--------------Maven
+13) how to access class which is there in other module/project?
+	basically the idea was around micro-architecture.
+14) what is the syntax for it? (i.e. groupId & artifact)
+
+--------------webServices
+15) can post() be used to pass filter/criteria & return data? instead of insert, can we get data from post().
+Exilant already using post method to pass filter & get response.
+
+16) what is the use/difference b/w post, put, get methods
+
+17) difference b/w PathParam, QueryParam & MatrixParam
+	URI Pattern : “/books/2011;author=mkyong;country=malaysia”
+https://www.mkyong.com/webservices/jax-rs/jax-rs-matrixparam-example/
+
+=======check difference types of param (query/path/form/matrix)
+
+/service/alarm/123/syed;someVar=value
+
+
+
+JUnit testing is must in exilant technology
+Oracle & Mongo DB is used...
+
+
+
+
+2nd Round ============== Manager & business head (Raghavendra) = it was related to Java/DB & Operations
+========================================================================================================
+
+1) which spring version? 4 or 3
+	which implementation xml or java code.
+
+2) difference between hashSet & HashMap & TreeSet
+
+what are differenct Joins? Explain
+
+3) Questions on AJAX & Asynchronous. 
+Like, is it possible to populate part of page based on search & user can do continue other things.
+
+
+@autowired
+
+how to get another instance of bean.
+How internally DI will happen.?
+
+autowired & inheritance question
+
+how to optimize response both at query side & code side?
+
+Binary Search: what algorithm / technique it uses? (Divide & conquered.... MergeSort is used in it.)
+
+how you will measure load? JMeter
+how you will test performance of web service? Developer Tool in web browser & tools like Google PostMan
+
+code deployment? how you will review code, any tool used (like sonar ).
+
+what is the advantage of spring jdbcTemplate().
+
+
+
+what is pseudo columns
+difference b/w rowId & rowNum
+performance wise which one is good. exist or in clause
+
+how you will optimize Response both at queries & code level?
+
+	At query level use stored procedures & 
+	at application use secondary cache or query cache and
+		use appropriate collections.
+
+how you will scale number of user for application to support users
+
+Agile methologies	:	Scrum is used
+
+questions on code deployment / sonar 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java 7/8 features
+
+how to make class singleton & immutable
+
+======================Copied from inter ques.txt======================
+memory area
+
+class loader : to load Remote / FTP class
+
+String.intern() moves the string object into string pool
+
+
+Adobe interview
+================================================================================
+
+
+linked list : crud operation
+
+threads: Multi threading
+		 1 2 3 4 5 6 
+	synchronous
+
+why String are immutable & String pool, heap
+
+constructor, oops, overloading, overriding, exception
+
+
+2nd Round: Dinesh
+
+login page : hashtable/hashmap identify total number of objects created.
+
+
+Tree: get ascending, decending order data from tree.
+
+	use TreeSet: traverse reverse to get decending order
+
+print pyramid:
+1
+12
+123
+1234
+
+Factorial program:
+
+hashMap / hashtable : put()
+
+Santhosh (Non technical):
+
+
+
+1. explain string immutability.
+2. create immutable class [singleton class]
+
+2.1) To create immutable class in java, you have to do following steps.
+
+Declare the class as final so it can’t be extended.
+Make all fields private so that direct access is not allowed.
+Don’t provide setter methods for variables
+Make all mutable fields final so that it’s value can be assigned only once.
+Initialize all the fields via a constructor performing deep copy.
+Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference.
+
+
+2.2) To implement Singleton pattern, we have different approaches but all of them have following common concepts.
+
+Private constructor to restrict instantiation of the class from other classes.
+Private static variable of the same class that is the only instance of the class.
+Public static method that returns the instance of the class, this is the global access point for outer world to get the instance of the singleton class.
+
+
+3. can immutability be broken using cloning or reflection, if yes why? if no why?
+4. print alternate number using multithreding, two threads must print alternate number, many programs can be written,usin gwait and notify is best solution.
+5. how does hashmap, hashtable and hash related collections work.
+6. detailed disucssion on equals and hashcode. general rules to follow while overriding equals and hashcode.
+7. default implementations of equals and hashcode.
+8. String pool,  and other memory related questions.
+9. Serialization, can you serialze static object.
+10. static block and its usage.
+11. singleton class.
+12. design patterns used in your project and why?
+
+Front Controller, MVC, Singleton, factory pattern.
+
+13. any challenges faced in prioejct and how you handled them.
+All india Report, production issues... 
+
+14 . draw any architecture diagram for your project and explain its components.
+15. some question on angular js.
+16. hibernate lazy and eager initialization.
+17. jquery handling dialogue box.
+18. in system diagrams flow of data. what did yo udo..
+19.multithreading example and how to share data between threads and how to protect data betwen thread.s
+
+volatile variable
+
+
+
+
+Singapore interview firstt round
+================================================================================
+
+java
+1. string immutability
+2. how to synchronize, 
+3. collections, sets, lists, maps, concurrentmaps. treeset, implementation. which one uses hashcode, equals, 
+4. comparable, comparator
+5.threading,
+6. difference between different collections. specially hashmap, hashtable, concurrenthashmap, arraylist and linkedlist.
+7. classloaders
+8. immutable class.
+9. String immutability, which one to use, String, StringBuffer, StringBuilder
+10. Class loaders
+
+set and treeset.
+
+javaee
+spring, hibernate, hibernate caching.
+spring security. how to implement. 
+how to configure jersey webservice in spring
+difference between soap and restful
+hibernate queries.
+performance tuning
+creating triggers in sql, benefits of triggers. procedure.
+
+
+
+Singapore interview questions
+================================================================================
+
+1. Which design pattern will you implement if you have to a scenario where you have to create two objects which have similar parent, similar methods, but different implementation. basically this scenario can be template or strategy depending on conditions.
+
+2. How to retrieve rowcount using criteria query.
+
+3. difference between union and union all.
+
+4. what is compile and link function in angular.
+
+5. what is interceptors in angular.
+
+6. what is embedded objects in hibernate. what are the usages.
+
+7. what is DI and IoC..? how it works in spring and angular js.
+
+8. What is injectors in angular js.
+
+9. what is default scope for a bean in spring? 	singleton...
+
+10. what scope will you use for spring bean if this spring needs to do some userspecific task.? this question will be detailed on scenario.
+
+11. what is AOP? difference between BEFORE, AFTER and AROUND?
+
+12. What are angular promises.?
+
+13. how to create custom directive.

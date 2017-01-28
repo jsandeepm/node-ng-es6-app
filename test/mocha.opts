@@ -2,4 +2,4 @@
 --recursive
 --colors
 --reporter list
---require test/setup
+--required ./test/setup.js
