@@ -1,0 +1,30 @@
+1. DI or IOC?
+2. injector type
+	1. setter, 2 constructor 3 interface
+3.autowiring/ autodetect
+4. single ton diff in java and spring
+5. singleton vs prototype examples
+6. coding to interface. advantage
+7. Spring life cycle explaination
+8 marker interface
+9 http://www.wideskills.com/spring/method-injection-in-spring
+10. http://www.wideskills.com/spring/transaction-management-in-spring
+
+
+
+openSession() vs getSession()
+get(class, id) vs load()
+discremenator in hibernate
+difference between comparable and comparator
+persist vs save
+flush() vs clear()
+fetch modes join vs select vs subselect
+
+how to cache rest/soap services
+
+
+linked list
+
+5x5 array
+
+rotate Array in clock and anti clock

@@ -6,10 +6,12 @@ what is mixins?
 
 what is the difference in devedependencies and dependencies in Nodejs?
 
+explain for_each in angular $index and v for v as v in v's
 
 
+explain $digest $compile $watch.
 
-
+write custom filter
 
 
 how spring boot detects required dependencies?
